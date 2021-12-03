@@ -28,10 +28,4 @@ public class FileWriterUtility {
                 System.out.println("Success...");
             }
 }
-
-//    public static void main(String[] args) {
-//        String msg  = "Janij";
-//        FileWriterUtility fileWriterUtility = new FileWriterUtility();
-//        fileWriterUtility.writeDataInTheFile(msg);
-//    }
 }

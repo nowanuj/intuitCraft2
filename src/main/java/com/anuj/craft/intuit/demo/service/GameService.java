@@ -40,7 +40,9 @@ public class GameService implements IGameService {
                 k++;
             }
         } catch (IOException e) {
-            e.printStackTrace();
+            e.getMessage();
+        }catch (Exception e){
+            System.out.println("File Not Found");
         }
         return top5Player;
     }

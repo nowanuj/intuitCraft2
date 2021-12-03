@@ -21,8 +21,8 @@ public class GameController {
     IGameService gameService;
 
     @GetMapping("/getList")
-    public List<Player> getTopScorer(){
-        return gameService.getScore();
+    public ResponseEntity<List<Player>> getTopScorer(){
+        return new ResponseEntity(gameService.getScore(), HttpStatus.OK);
     }
 
     @PostMapping("/playon")

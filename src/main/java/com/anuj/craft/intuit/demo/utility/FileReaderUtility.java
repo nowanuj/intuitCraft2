@@ -43,7 +43,5 @@ public class FileReaderUtility {
        return map;
     }
 
-//    public static void main(String[] args) throws IOException {
-//        readFileData();
-//    }
+
 }
